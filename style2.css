@@ -1,0 +1,24 @@
+body{
+    background: url();
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: backgrount 0.5s ease-in-out;
+}
+.img-fluid{
+    transition: all 0.5s ease-in-out;
+}
+.img-fluid:hover{
+    transform: scale(1.1);
+}
+
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.navbar navbar-expand-lg bg-body-tertiary{
+    margin: 42px;
+}
